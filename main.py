@@ -89,6 +89,7 @@ class TopUpper:
                 break
         if chat_id == None:
             raise Exception("Cannot find chat id! Make sure you've sent generated UUID")
+        requests.post(f"https://api.telegram.org/bot{self.bot_id}/sendMessage", params={'chat_id': chat_id, "text": f"Your bot is successfully added"})
         return chat_id
 
     def run_job(self):
