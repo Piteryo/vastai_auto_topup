@@ -1,0 +1,8 @@
+update_frequency: 1
+top_up_amount: 10.0
+min_credit_amount: 50.0
+bot_id: <your_bot_id>
+vastai_username: <your_username>
+vastai_password: <your_password>
+send_balance_info: true
+send_top_up_info: true

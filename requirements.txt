@@ -1,0 +1,4 @@
+selenium
+configargparse
+chromedriver_binary
+requests
